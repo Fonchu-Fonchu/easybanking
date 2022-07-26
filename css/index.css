@@ -1,0 +1,192 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header div img{
+    margin-top: 20px;
+}
+nav{
+    /* margin-top: -12px; */
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    width: 40px;
+    padding: 8px 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+
+header div button.btn{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top: 5px;
+    color: #fff;
+}
+.btn{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: #fff;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-size: 80%;
+    background-position: 880px -250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.section1 div{
+    width: 40%;
+}
+.section1 .sectionImg{
+    margin: -30px -400px 0px 0px;
+}
+h1{
+    font-size: 3.5em;
+}
+.section1 .sectionText p{
+    font-size: 1.4em
+}
+.section1 .sectionText .btn{
+    margin-top: 8%;
+}
+
+.reasons{
+    background-color: hsl(220, 16%, 96%);
+    padding: 15px 30px;
+    margin-top: -70px;
+}
+
+.reasons .question{
+    margin-left: 10%;
+    font-size: 1.4em;
+}
+.reasons .question p{
+    padding-right: 30%;
+}
+.reasons .reasonDetails{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0px auto;
+}
+.reasons .reasonDetails div{
+    width: 24%;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0px 10px;
+}
+h3{
+    font-weight: bold;
+}
+
+.articles div div img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.articles{
+    padding: 15px 30px;
+}
+
+.articles .question{
+    margin-left: 10%;
+    font-size: 1.4em;
+}
+.articles .reasonDetails{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0px auto;
+}
+.articles .reasonDetails div{
+    width: 24%;
+    font-size: 1.4em;
+    text-align: left;
+    margin: 0px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 40px
+}
+.articles .reasonDetails div p{
+    margin: -30px 10px;
+}
+
+.small{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .section1{
+        display: block;
+    }
+    .section1 div{
+        width: 100%;
+    }
+    .reasons{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .reasons div p{
+        text-align: center;
+    }
+    .reasons .reasonDetails{
+        display: block;
+        width: 100%;
+    }
+    .section1 .sectionText{
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .reasons .reasonDetails div{
+        width: 100%;
+        font-size: 1.4em;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .articles .question{
+        margin-left: 10%;
+        font-size: 1.4em;
+    }
+    .articles .reasonDetails{
+        display: block;
+        width: 100%;
+    }
+    .articles .reasonDetails div{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+        text-align: center
+    }
+}
