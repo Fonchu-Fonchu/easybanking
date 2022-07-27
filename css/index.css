@@ -190,3 +190,56 @@ h3{
         text-align: center
     }
 }
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 10%;
+}
+
+footer div div img{
+    color: #fff;
+}
+
+footer div ul li{
+    display: block;
+}
+footer div.links, footer div.links2{
+    width: 15%
+}
+
+footer div ul li a:hover{
+    color: #fff;
+}
+
+footer div.social, footer div.contact{
+    
+    width: 20%;
+}
+footer div.social div.log{
+    margin: 8% 0% 15% 0%;
+}
+footer div.contact div{
+    text-align: center
+}
+footer div.contact div{
+    margin: 20% 0% 0% 0%;
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        display: block;
+        width: 100%;
+        align-content: normal;
+        padding: 10% 0%;
+        text-align: center;
+    }
+
+    footer div.links, footer div.links2, footer div.social, footer div.contact{
+        width: 100%;
+    }
+    footer div.link ul{
+        text-align: center;
+    }
+}
